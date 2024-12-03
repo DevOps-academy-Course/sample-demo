@@ -1,0 +1,28 @@
+Git -- > VCS Tracks changes to files and allows multiple people to collaborate
+GitHub -cloud based platform that host host repos
+public and private 
+
+Create organizations
+teams --> project 
+users --> email
+
+## git commands
+git commit
+git init --> to initialise a git repository
+git add <filename>
+git add .
+git push <url>
+git pull<url>
+git checkout -n <branch name>
+git checkout
+git switch <branchname>
+git config --global user.name"<github-username>
+git config --global user.email<examplemail.com>
+git clone
+git merge
+git fetch
+git status
+git diff
+git log
+git show
+git remote add origin <url>
