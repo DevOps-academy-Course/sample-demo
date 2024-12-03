@@ -33,3 +33,40 @@ git branch -m master main
 git fetch origin
 git branch -u origin/main main
 git remote set-head origin -a
+
+#branching strategies
+dev branch --> development environment
+
+Pull request--  be reviewed -approved
+
+staging Branch(UAT) --  UAT environment
+
+test --> user acceptance
+
+pull request- reviewed -approved - merged
+
+prod Branch(main)  --> Production Environment  -- branch protection rules
+PR -APPROVED 
+featureBranch- add a new feature
+Bugfix branch - quick fix - hotfix
+
+
+=============================================
+
+## Git Best Practices
+Always have a README.md
+Always have  .gitignore
+Request pull request before we merge changes (peer review)
+code reviews
+create new branches for development
+Good commit messages
+SSH over HTTPS for authentication
+
+===============
+git hub pages
+secrets
+git hub actions
+ git hub tokens
+ 
+
+
